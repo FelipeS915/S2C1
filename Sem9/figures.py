@@ -20,7 +20,7 @@ plt.xlabel("Número de threads")
 plt.ylabel("Speedup")
 plt.title(f"Speedup vs Threads (Cores físicos: {physical_cores}, Total: {total_cores})")
 plt.legend()
-plt.savefig("speedup.png")  # Guardar la gráfica de speedup
+plt.savefig("speedup.pdf")  # Guardar la gráfica de speedup
 
 # Graficar eficiencia paralela
 plt.figure()
@@ -32,6 +32,6 @@ plt.xlabel("Número de threads")
 plt.ylabel("Eficiencia paralela")
 plt.title(f"Eficiencia paralela vs Threads (Cores físicos: {physical_cores}, Total: {total_cores})")
 plt.legend()
-plt.savefig("parallel_efficiency.png")  # Guardar la gráfica de eficiencia paralela
+plt.savefig("parallel_efficiency.pdf")  # Guardar la gráfica de eficiencia paralela
 
 plt.show()

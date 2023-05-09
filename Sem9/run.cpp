@@ -13,7 +13,7 @@ int main() {
 
     for (int policy = 0; policy < 3; ++policy) {
         for (int threads = 1; threads <= max_threads; ++threads) {
-            std::string command = "./prueba " + std::to_string(vector_size) + " " + std::to_string(threads) + " " + std::to_string(policy);
+            std::string command = "./ejecutable " + std::to_string(vector_size) + " " + std::to_string(threads) + " " + std::to_string(policy);
             std::cout << "Ejecutando: " << command << std::endl;
 
             // Ejecutar el programa y leer la salida
