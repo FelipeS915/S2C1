@@ -7,6 +7,18 @@
 #include <thread>
 #include <tbb/global_control.h>
 
+// Para compilar:
+// g++ -std=c++17 parallel_metrics_algs.cpp -ltbb -o ejecutable
+//
+// Para ejecutar:
+// ./ejecutable 200000000 "#num-threads" "politica ejecucion 0-seq 1-par 2-par_unseq"
+//
+// ej
+// ./ejecutable 200000000 4 1
+//
+// Estructura de salida:
+// #threads,politica_ejecucion,tiempo_ejecucion,speedup,parallel_efficiency \n
+//
 int main(int argc, char *argv[]) {
 
     size_t vector_size = std::stoul(argv[1]);
