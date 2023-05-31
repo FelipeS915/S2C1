@@ -10,7 +10,7 @@ plt.loglog(x,y,'o-')
 plt.grid()
 plt.xlabel("N")
 plt.ylabel("Error relativo")
-plt.title("N vs Error relativo en escala log-log")
+plt.title("Error relativo vs N | Escala log-log")
 plt.savefig("error.pdf")
 plt.show()
 
