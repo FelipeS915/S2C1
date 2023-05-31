@@ -23,8 +23,8 @@ plt.plot(x, y_efficiency, 'o-')
 plt.grid()
 plt.xlabel("Número de procesos")
 plt.ylabel("Parallel Eficiency")
-plt.title("Parallel Eficiency vs Número de procesos")
-plt.savefig("speedup.pdf")  # Guardar la gráfica como archivo PDF
+plt.title("Parallel Efficiency vs Número de procesos")
+plt.savefig("efficiency.pdf")  # Guardar la gráfica como archivo PDF
 
 
 plt.show()

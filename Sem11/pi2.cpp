@@ -57,7 +57,7 @@ int main(int argc, char** argv) {
         double pi_diff = std::abs(pi - M_PI) / M_PI;
 
         std::cout.precision(15);
-        std::cout << np << ", " << N << ", " << elapsed_time << ", " << pi_diff << std::endl;
+        std::cout << np << ", " << N << ", " << elapsed_time << ", " << pi_diff << ", " << pi <<std::endl;
     }
 
     MPI_Finalize();
